@@ -55,6 +55,7 @@ header {
   background-image: url("./images/mission-background.jpg");
   height: 700px;
   width: 1200px;
+  margin: 0 auto;
 }
 
 .mission .banner {
@@ -66,9 +67,44 @@ header {
 }
 
 /*tea of the month section*/
-.fall-berry img {
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.tea-banner {
+  width: 1000px;
+  text-align: center;
+}
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+
+}
+
+.tea {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px;
+}
+
+.tea img {
   height: 200px;
   width: 300px;
 }
 
+.tea h4 {
+  padding-top: 10px;
+}
 /*locations section*/
+
+/*footer section*/
+footer {
+Margin: 0;
+Width: 100%;
+}
