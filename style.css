@@ -1,0 +1,74 @@
+/*universal styles*/
+body {
+margin: 0;
+font-family: Helvetica;
+color: #DECEEF;
+background-color: black;
+}
+
+h2 {
+
+}
+
+h4 {
+
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;}
+
+a {
+  color: #DECEEF;
+}
+
+/*header styles*/
+
+header {
+  display: flex;
+  margin: 0;
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #DECEEF;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+}
+
+.logo img {
+  height: 50px;
+  margin: 10px;
+}
+
+/*main content sytles*/
+
+.content {
+  width: 100%;
+  margin: 0 50px;
+  padding-top: 80px;
+}
+
+/*Mission Section*/
+.mission {
+  background-image: url("./images/mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.mission .banner {
+  background-color: black;
+  text-align: center;
+  position: relative;
+  top: 300px;
+  padding: 1px;
+}
+
+/*tea of the month section*/
+.fall-berry img {
+  height: 200px;
+  width: 300px;
+}
+
+/*locations section*/
