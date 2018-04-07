@@ -1,17 +1,26 @@
 /*universal styles*/
 body {
 margin: 0;
-font-family: Helvetica;
+font-family: "Book Antiqua";
 color: #DECEEF;
 background-color: black;
+opacity: 0.9;
 }
 
 h2 {
+  font-size: 30px;
+}
 
+h3 {
+  font-size: 23px;
 }
 
 h4 {
+font-size: 18px;
+}
 
+h5 {
+  font-size: 14px;
 }
 
 nav span {
@@ -46,7 +55,7 @@ header {
 
 .content {
   width: 100%;
-  margin: 0 50px;
+  margin: 0 auto;
   padding-top: 80px;
 }
 
@@ -73,16 +82,17 @@ header {
   align-items: center;
   width: 100%;
 }
+
 .tea-banner {
   width: 1000px;
   text-align: center;
 }
+
 .teas {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width: 1000px;
-
 }
 
 .tea {
@@ -99,29 +109,29 @@ header {
 }
 
 .tea h4 {
-  padding-top: 10px;
+  padding: 0;
+  margin-top: 10px;
 }
 /*locations section*/
 .locations {
   background-image: url("./images/locations-background.jpg");
+  background-position: 25% 15%;
   width: 1200px;
   height: 500px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .location-banner {
 margin: 0;
 padding-bottom: 0;
-
 }
 
 .stores {
   display: flex;
-  justify-content: ;
-  align-items: ;
   margin-top: 0;
   padding: 0;
 }
@@ -129,16 +139,28 @@ padding-bottom: 0;
 .store {
   border: 1px solid black;
   width: 300px;
+  flex-shrink: 1;
   text-align: center;
   margin-top: 0;
   margin-left: 20px;
   margin-right: 20px;
   background-color: black;
   padding: 0;
-
+  opacity: 1;
 }
+
 /*footer section*/
 footer {
 Margin: 0;
 Width: 100%;
+}
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+.copyright {
+  padding-left: 20px;
+  text-align: left;
 }
